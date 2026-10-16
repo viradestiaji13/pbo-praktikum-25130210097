@@ -7,13 +7,11 @@ class Buku:
     def info(self):
         print(f"Judul   : {self.judul}")
         print(f"Penulis : {self.penulis}")
+        print(f"Tahun Terbit : {self.tahun_terbit}")
 
-buku1 = Buku("Dasar Pemrograman Python", "Andi Pratama")
-buku2 = Buku("Struktur Data", "Siti Aminah")
-buku3 = Buku("Basis Data", "Budi Santoso")
-buku4 = Buku("Algoritma Pemrograman")
-
+buku1 = Buku("Dasar Pemrograman Python", "Andi Pratama", 2022)
+buku2 = Buku("Struktur Data", "Siti Aminah", 2023)
+buku3 = Buku("Basis Data", "Budi Santoso", 2024)
 buku1.info()
 buku2.info()
 buku3.info()
-buku4.info()
